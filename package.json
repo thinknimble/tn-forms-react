@@ -1,13 +1,12 @@
 {
   "name": "@thinknimble/tn-forms-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "React utils to use with @thinknimble/tn-forms",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsup index.ts --dts",
     "prepublish": "rm -rf dist && npm run build",
-    "publish": "npm publish"
   },
   "repository": {
     "type": "git",
