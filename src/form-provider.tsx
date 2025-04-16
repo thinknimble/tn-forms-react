@@ -1,5 +1,5 @@
 import React from "react";
-import Form, { IFormField } from "@thinknimble/tn-forms";
+import {  Form, IFormField } from "@thinknimble/tn-forms";
 import {
   createContext,
   ReactNode,
