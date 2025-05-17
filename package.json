@@ -1,6 +1,6 @@
 {
   "name": "@thinknimble/tn-forms-react",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React utils to use with @thinknimble/tn-forms",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
