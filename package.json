@@ -2,12 +2,12 @@
   "name": "@thinknimble/tn-forms-react",
   "version": "1.0.5",
   "description": "React utils to use with @thinknimble/tn-forms",
-  "main": "dist/index.cjs",
-  "module": "dist/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "exports": {
-    "import": "./dist/index.js",
-    "require": "./dist/index.cjs"
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.js"
   },
   "scripts": {
     "build": "tsup index.ts --dts --format esm,cjs",
