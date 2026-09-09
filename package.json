@@ -29,16 +29,24 @@
   },
   "homepage": "https://github.com/thinknimble/tn-forms-react#readme",
   "devDependencies": {
-    "@thinknimble/tn-forms": ">=3.3.3",
+    "@thinknimble/tn-forms": "^3.4.0",
     "@types/react": "^19.1.4",
     "react": ">=18.2.0",
     "react-dom": ">=18.2.0",
-    "tsup": "^6.5.0",
+    "tsup": "^8.5.1",
     "typescript": "^4.9.4"
   },
   "peerDependencies": {
     "@thinknimble/tn-forms": ">=3.3.3",
     "react": ">=18.2.0",
     "react-dom": ">=18.2.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "glob": ">=10.5.0 <11.0.0",
+      "minimatch": ">=9.0.7 <10.0.0",
+      "brace-expansion": ">=2.1.4 <3.0.0",
+      "esbuild": ">=0.28.1"
+    }
   }
 }
