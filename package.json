@@ -45,7 +45,7 @@
     "overrides": {
       "glob": ">=10.5.0 <11.0.0",
       "minimatch": ">=9.0.7 <10.0.0",
-      "brace-expansion": ">=2.1.4 <3.0.0",
+      "brace-expansion": ">=2.1.7 <3.0.0",
       "esbuild": ">=0.28.1"
     }
   }
